@@ -57,19 +57,11 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/star-wars-backgrounds.jpg') no-repeat top center ;
-  background-size: cover;
-  overflow: hidden;
-  padding-top: 60px;
-}
-header2 {
-  text-align: center;
   background: url('images/bobabackground.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
-
 header {
   line-height: 1.5;
 }
@@ -82,7 +74,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.5) rotate(-360deg);
+  transform: scale(1.5) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
